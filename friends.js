@@ -1,0 +1,153 @@
+
+    var muppets = [{
+            "name":"Kermit the Frog",
+            "photo":"https://en.wikipedia.org/wiki/Kermit_the_Frog#/media/File:Kermit_the_Frog.jpg",
+            "scores":[
+                5,
+                1,
+                4,
+                4,
+                5,
+                1,
+                2,
+                5,
+                4,
+                1
+            ]
+        },
+
+        {
+            "name":"Miss Piggy",
+            "photo":"https://en.wikipedia.org/wiki/Miss_Piggy#/media/File:MissPiggy.jpg",
+            "scores":[
+                5,
+                1,
+                4,
+                4,
+                5,
+                1,
+                2,
+                5,
+                4,
+                1
+            ]
+        },
+
+        {
+            "name":"Fozzie Bear",
+            "photo":"https://en.wikipedia.org/wiki/Fozzie_Bear#/media/File:Fozzie_Bear.jpg",
+            "scores":[
+                5,
+                1,
+                4,
+                4,
+                5,
+                1,
+                2,
+                5,
+                4,
+                1
+            ]
+        },
+
+        {
+            "name":"Gonzo",
+            "photo":"https://en.wikipedia.org/wiki/Gonzo_(Muppet)#/media/File:Gonzo_the_Great.jpg",
+            "scores":[
+                5,
+                1,
+                4,
+                4,
+                5,
+                1,
+                2,
+                5,
+                4,
+                1
+            ]
+        },
+
+        {
+            "name":"Rowlf the Dog",
+            "photo":"https://en.wikipedia.org/wiki/Rowlf_the_Dog#/media/File:Rowlf_the_Dog.jpg",
+            "scores":[
+                5,
+                1,
+                4,
+                4,
+                5,
+                1,
+                2,
+                5,
+                4,
+                1
+            ]
+        },
+
+        {
+            "name":"Dr. Bunsen Honeydew",
+            "photo":"https://en.wikipedia.org/wiki/Bunsen_Honeydew#/media/File:Dr._Bunsen_Honeydew.jpg",
+            "scores":[
+                5,
+                1,
+                4,
+                4,
+                5,
+                1,
+                2,
+                5,
+                4,
+                1
+            ]
+        },
+
+        {
+            "name":"Beaker",
+            "photo":"https://en.wikipedia.org/wiki/Beaker_(Muppet)#/media/File:Beaker_(Muppet).jpg",
+            "scores":[
+                5,
+                1,
+                4,
+                4,
+                5,
+                1,
+                2,
+                5,
+                4,
+                1
+            ]
+        },
+
+        {
+            "name":"Beaker",
+            "photo":"https://en.wikipedia.org/wiki/Beaker_(Muppet)#/media/File:Beaker_(Muppet).jpg",
+            "scores":[
+                5,
+                1,
+                4,
+                4,
+                5,
+                1,
+                2,
+                5,
+                4,
+                1
+            ]
+        },
+
+        {
+            "name":"Animal",
+            "photo":"https://en.wikipedia.org/wiki/Animal_(Muppet)#/media/File:Animal_(Muppet).jpg",
+            "scores":[
+                5,
+                1,
+                4,
+                4,
+                5,
+                1,
+                2,
+                5,
+                4,
+                1
+            ]
+        }]
