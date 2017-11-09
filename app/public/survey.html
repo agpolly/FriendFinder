@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Questions</h1>
+        <hr>
+        <h2><strong>About You</strong></h2>
+        <h3>Name (Required)</h3>
+        <input type="text" name="name" id="name" class="form-control" required="required">
+        <h3>Link to Photo Image (Required))</h3>
+        <input type="text" name="photo" id="photo" class="form-control" required="required">
+        <hr>
+        <h3>
+            <strong>Question 1</strong>
+        </h3>
+        <h4>How often do you have trouble wrapping up the final details of a project, once the challenging parts have been done?</h4>
+        <select data-placeholder="" class="chosen-select" id="q1">
+            <option value=""></option>
+            <option value="1">1 (Almost Never)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Almost Always)</option>
+        </select>
+        <h3>
+            <strong>Question 2</strong>
+        </h3>
+        <h4>How often do you have difficulty getting things in order when you have to do a task that requires organization?</h4>
+        <select data-placeholder="" class="chosen-select" id="q2">
+            <option value=""></option>
+            <option value="1">1 (Almost Never)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Almost Always)</option>
+        </select>
+        <h3>
+            <strong>Question 3</strong>
+        </h3>
+        <h4>How often do you have problems remembering appointments or obligations?</h4>
+        <select data-placeholder="" class="chosen-select" id="q3">
+            <option value=""></option>
+            <option value="1">1 (Almost Never)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Almost Always)</option>
+        </select>
+        <h3>
+            <strong>Question 4</strong>
+        </h3>
+        <h4>When you have a task that requires a lot of thought, how often do you avoid or delay getting started?</h4>
+        <select data-placeholder="" class="chosen-select" id="q4">
+            <option value=""></option>
+            <option value="1">1 (Almost Never)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Almost Always)</option>
+        </select>
+        <h3>
+            <strong>Question 5</strong>
+        </h3>
+        <h4>How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?</h4>
+        <select data-placeholder="" class="chosen-select" id="q5">
+            <option value=""></option>
+            <option value="1">1 (Almost Never)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Almost Always)</option>
+        </select>
+        <h3>
+            <strong>Question 6</strong>
+        </h3>
+        <h4>How often do you feel overly active and compelled to do things, like you were driven by a motor?</h4>
+        <select data-placeholder="" class="chosen-select" id="q6">
+            <option value=""></option>
+            <option value="1">1 (Almost Never)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Almost Always)</option>
+        </select>
+        <h3>
+            <strong>Question 7</strong>
+        </h3>
+        <h4>How often do you make careless mistakes when you have to work on a boring or difficult project?</h4>
+        <select data-placeholder="" class="chosen-select" id="q7">
+            <option value=""></option>
+            <option value="1">1 (Almost Never)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Almost Always)</option>
+        </select>
+        <h3>
+            <strong>Question 8</strong>
+        </h3>
+        <h4>How often do you have difficulty keeping your attention when you are doing boring or repetitive work?</h4>
+        <select data-placeholder="" class="chosen-select" id="q8">
+            <option value=""></option>
+            <option value="1">1 (Almost Never)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Almost Always)</option>
+        </select>
+        <h3>
+            <strong>Question 9</strong>
+        </h3>
+        <h4>How often do you have difficulty concentrating on what people say to you, even when they are speaking to you directly?</h4>
+        <select data-placeholder="" class="chosen-select" id="q9">
+            <option value=""></option>
+            <option value="1">1 (Almost Never)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Almost Always)</option>
+        </select>
+        <h3>
+            <strong>Question 10</strong>
+        </h3>
+        <h4>How often do you misplace or have difficulty finding things at home or at work?</h4>
+        <select data-placeholder="" class="chosen-select" id="q10">
+            <option value=""></option>
+            <option value="1">1 (Almost Never)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Almost Always)</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit" id="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+        <hr>
+        <footer>
+            <div class="container">
+                <a href="/api/friends">API Friends List</a>
+                | 
+                <a href="https://github.com/adurha10/FriendFinder">GitHub Repository</a>
+            </div>
+        </footer>
+    </div>
+    <div class="modal fade" id="friendModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="friend-name"></h5>
+                <img src="" alt="" id="friend-img" class="img-responsive">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="friend-message"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("submit").onclick = function(event){
+            console.log("clicked");
+            event.preventDefault();
+    
+            var user = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val(),
+                scores: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val(),                                                                                                                                
+                ]
+            } 
+            $.post("/api/friends", user, function(data) {
+                $("#friend-name").text(data.name);
+                $("#friend-img").attr("src", data.photo);
+                $("#friend-img").attr("alt", data.name);
+                $("#friend-message").text(`Your closest match was with ${data.name}`)
+                $("#friendModal").modal("show");
+            }) 
+        }
+    </script> 
+</body>
+
+</html>
