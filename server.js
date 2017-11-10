@@ -7,7 +7,7 @@ var path = require("path");
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = 3000;
+var port = 3000;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
@@ -18,6 +18,6 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 require("./routing/apiRoutes")(app);
 require("./routing/htmlRoutes")(app);
 
-app.listen(process.env.PORT || PORT, function() {
+app.listen(process.env.PORT || port, function() {
     console.log("App listening on PORT " + PORT);
 });
